@@ -27,7 +27,10 @@ class _MyAppState extends State<MyApp> {
             child: Column(
               children: [
                 Text(value),
-                IconButton(onPressed: _onClick, icon: Icon(Icons.timer)),
+                IconButton(
+                    onPressed: _onClick,
+                    icon: Icon(Icons.timer),
+                    tooltip: "Click me"),
               ],
             ),
           ),
